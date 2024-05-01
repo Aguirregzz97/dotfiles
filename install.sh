@@ -17,6 +17,8 @@ brew install zsh-autosuggestions
 # add git aliases
 git config --global alias.s status
 git config --gloabl alias.c commit
+
+mv .andres_zshrc .zshrc
  
 # source zshrc
 source ~/.zshrc
