@@ -13,6 +13,7 @@ brew install rbenv ruby-build
 
 # install plugins
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 # add git aliases
 git config --global alias.s status
@@ -35,6 +36,7 @@ source $ZSH/oh-my-zsh.sh
 plugins=(
   git
   zsh-autosuggestions
+  zsh-syntax-highlighting
   web-search
   copypath
   copyfile
