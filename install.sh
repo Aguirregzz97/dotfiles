@@ -18,3 +18,4 @@ source ~/.zshrc
 
 # add git aliases
 git config --global alias.s status
+git config --gloabl alias.c commit
