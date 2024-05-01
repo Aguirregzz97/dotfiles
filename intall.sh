@@ -15,3 +15,6 @@ brew install rbenv ruby-build
 
 # install plugins
 brew install zsh-autosuggestions
+
+# source zshrc
+source ~/.zshrc

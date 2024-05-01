@@ -18,5 +18,3 @@ plugins=(
 
 # disables spring (mainly for bugs related to rails)
 export DISABLE_SPRING=true
-
-source ~/.zshrc
